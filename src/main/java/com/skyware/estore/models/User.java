@@ -15,7 +15,7 @@ public class User
     private Long Id;
 
     @Column(nullable = false)
-    private  String Username;
+    private  String username;
 
     @Column(nullable = false)
     private  String Password;
